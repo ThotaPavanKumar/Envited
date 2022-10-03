@@ -1,14 +1,12 @@
 
 import './App.css';
-import { EventPage } from './components/EventPage';
-import { LandingPage } from './components/LandingPage';
+import { MyRoutes } from './Routes/MyRoutes';
 
 
 function App() {
   return (
     <div className="App">
-     {/* <LandingPage /> */}
-     <EventPage />
+      <MyRoutes />
     </div>
   );
 }
