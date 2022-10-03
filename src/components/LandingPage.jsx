@@ -8,7 +8,7 @@ export const LandingPage = () => {
   const navigation = useNavigate();
 
   const handleClick = () => {
-    navigation("/event")
+    navigation("/form")
   }
 
   return (
